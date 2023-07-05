@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+datasets==2.5.1
+pytorch-lightning==1.7.7
+transformers==4.22.2
+torch==1.12.1+cu113
+wandb==0.13.4
+fastapi==0.88.0
+sentence-splitter==1.4
+torchvision==0.13.1
+lightning==2.0.2
