@@ -81,7 +81,7 @@ python critics/run.py --batch_size 32 --outdir OUT_DIR --model MLPSELU --lr 1e-5
 
 # Critic-aware decoding
 
-Put the checkpoint of fine-tuned LM model into `experiments/webnlg/CHECKPOINT_NAME` path. Our BART-based LM model fine-tuned on WebNLG can be downloaded from `https://we.tl/t-1aufs3tnyS`
+Put the checkpoint of fine-tuned LM model into `experiments/webnlg/CHECKPOINT_NAME` path. Our BART-based LM model fine-tuned on WebNLG can be downloaded from [here](http://ufallab.ms.mff.cuni.cz/~lango/webnlg-model.ckpt).
 The checkpoint of a trained critic should be located in `CRITIC_CHECKPOINT_NAME`. The name of the output file with the decoded text is specified by `FILE_NAME`.
 ```
 python3 ./nlg/bin/decode.py \
