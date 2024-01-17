@@ -1,6 +1,10 @@
 # Critic-Driven Decoding for Mitigating Hallucinations in Data-to-text Generation
 
 ## Critic classifier training
+### How to get webnlg-{split}.tex files
+
+
+
 ### Generating data
 
 - ver 1. critic (base)
