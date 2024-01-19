@@ -6,7 +6,7 @@ import logging
 import os
 import random
 
-from data import get_dataset_class_by_name
+from decoding.data import get_dataset_class_by_name
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",

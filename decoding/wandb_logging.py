@@ -4,7 +4,7 @@ from typing import Dict, List, Any
 
 from pytorch_lightning.loggers.wandb import WandbLogger
 
-from model import Seq2SeqTrainingModule
+from decoding.model import Seq2SeqTrainingModule
 
 TOKENIZER_OUT = Seq2SeqTrainingModule.TOKENIZER_OUT
 

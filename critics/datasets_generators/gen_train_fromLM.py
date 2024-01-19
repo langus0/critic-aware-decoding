@@ -3,7 +3,7 @@ import sys
 from collections import defaultdict
 from tqdm import tqdm
 
-from data import WebNLG
+from decoding.data import WebNLG
 
 split = sys.argv[1]
 INPUT = sys.argv[2]

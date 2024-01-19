@@ -5,7 +5,7 @@ from collections import namedtuple
 
 from datasets import load_dataset
 
-from text import normalize
+from decoding.text import normalize
 
 logger = logging.getLogger(__name__)
 

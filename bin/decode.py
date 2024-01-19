@@ -10,9 +10,9 @@ import pytorch_lightning as pl
 import torch
 from transformers import AutoTokenizer
 
-from dataloader import Seq2SeqDataModule
-from inference import CriticGenDataInferenceModule, Seq2SeqInferenceModule, CriticAwareInferenceModule
-from wandb_logging import save_predictions
+from decoding.dataloader import Seq2SeqDataModule
+from decoding.inference import CriticGenDataInferenceModule, Seq2SeqInferenceModule, CriticAwareInferenceModule
+from decoding.wandb_logging import save_predictions
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
