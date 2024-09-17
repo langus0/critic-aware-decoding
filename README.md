@@ -104,3 +104,7 @@ python3 ./bin/decode.py \
     --critic_ckpt CRITIC_CHECKPOINT_NAME \
     --out_filename FILE_NAME --wrapper classifier --load_in_8bit
 ```
+## Acknowledgements
+This work was co-funded by the European Union (ERC, NG-NLG, 101039303).
+
+<img src="LOGO_ERC-FLAG_FP.png" alt="erc-logo" height="150"/>
